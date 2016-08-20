@@ -1,15 +1,16 @@
 {
   "name": "recsst",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dist": "browserify -t es2020 -s recsst src -o index.js"
+    "dist": "browserify -t brfs -t es2020 -s recsst src -o index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "brfs": "^1.4.3",
     "browserify": "^13.1.0",
     "es2020": "^1.1.8"
   }
