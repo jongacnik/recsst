@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dist": "browserify -t brfs -t es2020 -s recsst src -o index.js"
+    "dist": "browserify -t brfs -t es2020 -s recsst src.js > index.js"
   },
   "keywords": [],
   "author": "",
