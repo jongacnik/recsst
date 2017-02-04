@@ -29,3 +29,9 @@ recsst.attach()
 ```
 
 Attaches style tag with the reset to the document head.
+
+```js
+recsst.toString()
+```
+
+Returns css as simple string. Generally useful for writing to file.
