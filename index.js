@@ -3,6 +3,10 @@
 
 var reset = "html { box-sizing: border-box }\n*, *:before, *:after { box-sizing: inherit }\nhtml, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, dl,\ndt, dd, blockquote, address { margin: 0; padding: 0 }\n";
 
+exports.toString = function () {
+  return reset;
+};
+
 exports.attach = function () {
   var node = document.createElement('style');
   node.innerHTML = reset;
